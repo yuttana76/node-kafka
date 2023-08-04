@@ -4,9 +4,11 @@ https://www.youtube.com/watch?v=3pxr45ufnRc
 ## Start kafka
 $kafka>docker compose -f zk-single-kafka-single.yml up -d
 
+## Stop kafka
+>docker compose -f zk-single-kafka-single.yml down
+
 ## run application
 >npm run start
-
 
 
 ## Next 2 to learn
